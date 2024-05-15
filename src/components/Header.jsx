@@ -1,6 +1,9 @@
 import Image from "next/image";
+import LangSwitcher from "./LangSwitcher";
+import { getLocale } from "@/i18n/server";
 
-export default function Header() {
+export default function Header({t}) {
+  const locale = getLocale();
   return (
     <header className="fixed left-0 top-0 w-full flex items-center px-32 py-10 bg-primary">
       <Image
@@ -12,7 +15,7 @@ export default function Header() {
       />
 
       <div className="flex flex-1 text-lg ml-12">
-        <a className="text-white" href="/">About</a>
+        <a className="text-white" href="/">{t("about")}</a>
       </div>
 
       <div className="toolbar flex items-center">
@@ -37,7 +40,8 @@ export default function Header() {
             priority
           />
         </a>
-        <div className="mx-4 text-white">中文</div>
+
+        <LangSwitcher locale={locale} />
       </div>   
     </header>
   );
