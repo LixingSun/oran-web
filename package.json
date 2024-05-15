@@ -10,6 +10,7 @@
     "prepare": "husky"
   },
   "dependencies": {
+    "cookies-next": "^4.1.1",
     "i18next": "^23.11.4",
     "i18next-resources-to-backend": "^1.2.1",
     "next": "14.2.3",
