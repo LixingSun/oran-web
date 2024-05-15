@@ -2,6 +2,7 @@ import Header from "@/components/Header" ;
 import Footer from "@/components/Footer";
 import { createTranslation } from '@/i18n/server';
 import TopSection from "@/components/TopSection";
+import KeywordsSection from "@/components/KeywordsSection";
 
 export default async function Home() {
   const { t } = await createTranslation("home");
@@ -11,6 +12,8 @@ export default async function Home() {
       <Header t={t} />
 
       <TopSection t={t} />
+
+      <KeywordsSection t={t} />
 
       <Footer />
     </main>

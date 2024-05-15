@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="52px" height="52px" viewBox="0 0 52 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icon</title>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home" transform="translate(-371, -668)">
+            <g id="Group-3" transform="translate(0, 567)">
+                <g id="Group" transform="translate(285, 101)">
+                    <g id="Icon" transform="translate(86, 0)">
+                        <circle id="Oval" fill="#60A8D3" cx="26" cy="26" r="26"></circle>
+                        <g id="cube" transform="translate(14, 14)" fill="#FFFFFF" fill-rule="nonzero">
+                            <path d="M11,11.7731726 L0,7.14644506 L0,17.4532473 C0.0118371458,18.330827 0.532132337,19.121686 1.33333334,19.4799406 L10.92,24 L11,24 L11,11.7731726 Z M12,9.99981592 L23.3466667,5.23975333 C23.1557047,5.02758958 22.9245848,4.85538032 22.6666667,4.73308001 L13.0666667,0.239687586 C12.3914609,-0.0798958619 11.6085391,-0.0798958619 10.9333333,0.239687586 L1.33333334,4.73308001 C1.07541521,4.85538032 0.844295292,5.02758958 0.653333344,5.23975333 L12,9.99981592 Z M13,11.7731726 L13,24 L13.0666667,24 L22.6666667,19.4799406 C23.4635511,19.123719 23.9830239,18.3393047 24,17.4665808 L24,7.14644506 L13,11.7731726 Z" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
