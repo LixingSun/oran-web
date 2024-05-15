@@ -1,3 +1,9 @@
 {
-  "about": "关于" 
+  "about": "关于",
+  "topSection": {
+    "title": "I’m Lixing SUN",
+    "subtitle": "A Developer/Consultant based in China. ",
+    "paragraph": "Have 7 years of software development experience. While focusing more on frontend, also have practical experience in backend development, architecture design and DevOps. Experienced in E2E products from idea to release. Have deep understanding of Agile development, with rich experience of leading Agile team. A motivated, resonsible, team-oriented fast learner with strong can-do attitude.",
+    "resume": "Browse my resume to know more about me"
+  }
 }
