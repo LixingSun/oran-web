@@ -1,6 +1,6 @@
 import Image from "next/image";
 import LangSwitcher from "./LangSwitcher";
-import { Link } from "@/i18n/i18n.config";
+import { Link } from "@/i18n.config";
 import { useTranslations, useLocale } from "next-intl";
 
 export default function Header() {

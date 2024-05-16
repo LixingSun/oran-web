@@ -5,7 +5,7 @@ import {
   LOCALE_CN,
   usePathname,
   useRouter
-} from "@/i18n/i18n.config";
+} from "@/i18n.config";
 
 export default function LangSwitcher ({locale}) {
   const pathname = usePathname();
