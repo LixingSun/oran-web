@@ -64,7 +64,7 @@ export default function KeywordsSection () {
 
   return (
     <div className="px-32 py-10">
-      <div className="text-2xl font-bold">{t("keywords")}</div>
+      <div className="text-2xl font-bold">{t("keywordsSection.keywords")}</div>
 
       <div className="flex mt-8 text-center">
         {
