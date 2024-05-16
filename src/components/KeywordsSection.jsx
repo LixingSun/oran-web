@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { useTranslations, useLocale } from "next-intl";
 
 const KeywordsCol = ({t, index, imgSrc, imgAlt, titleTrans, keywordsTrans}) => {
   return (
@@ -24,42 +25,44 @@ const KEYWORDS_DATA = [
   {
     imgSrc: "/icons/ui-icon.svg",
     imgAlt: "UI Development",
-    titleTrans: "keywordsSection.ui",
+    titleTrans: "ui",
     keywordsTrans: [
-      "keywordsSection.frameworks",
-      "keywordsSection.testing",
-      "keywordsSection.responsive",
-      "keywordsSection.charts",
+      "frameworks",
+      "testing",
+      "responsive",
+      "charts",
     ]
   },
   {
     imgSrc: "/icons/engineering-icon.svg",
     imgAlt: "Engineering",
-    titleTrans: "keywordsSection.engineering",
+    titleTrans: "engineering",
     keywordsTrans: [
-      "keywordsSection.agile",
-      "keywordsSection.cicd",
-      "keywordsSection.cloud",
-      "keywordsSection.architecture",
+      "agile",
+      "cicd",
+      "cloud",
+      "architecture",
     ]
   },
   {
     imgSrc: "/icons/tools-icon.svg",
     imgAlt: "Tools",
-    titleTrans: "keywordsSection.tools",
+    titleTrans: "tools",
     keywordsTrans: [
-      "keywordsSection.ide",
-      "keywordsSection.design",
-      "keywordsSection.atlassian",
-      "keywordsSection.trello",
+      "ide",
+      "design",
+      "atlassian",
+      "trello",
     ]
   }
 ]
 
-export default function KeywordsSection ({t}) {
+export default function KeywordsSection () {
+  const t = useTranslations("keywordsSection");
+
   return (
     <div className="px-32 py-10">
-      <div className="text-2xl font-bold">{t("keywordsSection.keywords")}</div>
+      <div className="text-2xl font-bold">{t("keywords")}</div>
 
       <div className="flex mt-8 text-center">
         {

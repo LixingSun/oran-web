@@ -1,6 +1,5 @@
 import { Inter } from "next/font/google";
-import { getLocale } from '@/i18n/server';
-import "./globals.css";
+import "@/styles/globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -9,9 +8,7 @@ export const metadata = {
   description: "ORan's personal website",
 };
 
-export default function RootLayout({ children }) {
-  const locale = getLocale();
-
+export default function RootLayout({ children, params: { locale }}) {
   return (
     <html lang={locale}>
       <body className={inter.className}>{children}</body>

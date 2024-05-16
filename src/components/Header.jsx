@@ -1,9 +1,12 @@
 import Image from "next/image";
 import LangSwitcher from "./LangSwitcher";
-import { getLocale } from "@/i18n/server";
+import { Link } from "@/i18n/i18n.config";
+import { useTranslations, useLocale } from "next-intl";
 
-export default function Header({t}) {
-  const locale = getLocale();
+export default function Header() {
+  const t = useTranslations();
+  const locale = useLocale();
+
   return (
     <header className="fixed left-0 top-0 w-full flex items-center px-32 py-10 bg-primary">
       <Image
@@ -15,7 +18,7 @@ export default function Header({t}) {
       />
 
       <div className="flex flex-1 text-lg ml-12">
-        <a className="text-white" href="/">{t("about")}</a>
+        <Link className="text-white" href="/">{t("about")}</Link>
       </div>
 
       <div className="toolbar flex items-center">
