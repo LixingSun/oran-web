@@ -1,5 +1,7 @@
+'use client';
+
 import Image from "next/image";
-import { useTranslations, useLocale } from "next-intl";
+import { useTranslation } from 'react-i18next';
 
 const KeywordsCol = ({t, index, imgSrc, imgAlt, titleTrans, keywordsTrans}) => {
   return (
@@ -25,40 +27,40 @@ const KEYWORDS_DATA = [
   {
     imgSrc: "/icons/ui-icon.svg",
     imgAlt: "UI Development",
-    titleTrans: "ui",
+    titleTrans: "keywordsSection.ui",
     keywordsTrans: [
-      "frameworks",
-      "testing",
-      "responsive",
-      "charts",
+      "keywordsSection.frameworks",
+      "keywordsSection.testing",
+      "keywordsSection.responsive",
+      "keywordsSection.charts",
     ]
   },
   {
     imgSrc: "/icons/engineering-icon.svg",
     imgAlt: "Engineering",
-    titleTrans: "engineering",
+    titleTrans: "keywordsSection.engineering",
     keywordsTrans: [
-      "agile",
-      "cicd",
-      "cloud",
-      "architecture",
+      "keywordsSection.agile",
+      "keywordsSection.cicd",
+      "keywordsSection.cloud",
+      "keywordsSection.architecture",
     ]
   },
   {
     imgSrc: "/icons/tools-icon.svg",
     imgAlt: "Tools",
-    titleTrans: "tools",
+    titleTrans: "keywordsSection.tools",
     keywordsTrans: [
-      "ide",
-      "design",
-      "atlassian",
-      "trello",
+      "keywordsSection.ide",
+      "keywordsSection.design",
+      "keywordsSection.atlassian",
+      "keywordsSection.trello",
     ]
   }
 ]
 
 export default function KeywordsSection () {
-  const t = useTranslations("keywordsSection");
+  const {t} = useTranslation();
 
   return (
     <div className="px-32 py-10">

@@ -1,15 +1,10 @@
-import createMiddleware from "next-intl/middleware";
-import { locales, FALLBACK_LOCALE } from "./i18n.config";
+import { i18nRouter } from 'next-i18n-router';
+import { i18nConfig } from './i18n.config';
 
-export default createMiddleware({
-  defaultLocale: FALLBACK_LOCALE,
-  locales,
-  localeDetection: true,
-  localePrefix: "as-needed",
-});
+export function middleware(request) {
+  return i18nRouter(request, i18nConfig);
+}
 
 export const config = {
-  matcher: [
-    "/((?!api|_next|_vercel|.*\\..*).*)",
-  ],
+  matcher: '/((?!api|static|.*\\..*|_next).*)'
 };

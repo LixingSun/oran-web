@@ -1,11 +1,12 @@
+'use client';
+
 import Image from "next/image";
 import LangSwitcher from "./LangSwitcher";
-import { Link } from "@/i18n.config";
-import { useTranslations, useLocale } from "next-intl";
+import Link from "next/link";
+import { useTranslation } from 'react-i18next';
 
 export default function Header() {
-  const t = useTranslations();
-  const locale = useLocale();
+  const {t} = useTranslation();
 
   return (
     <header className="fixed left-0 top-0 w-full flex items-center px-32 py-10 bg-primary">
@@ -44,7 +45,7 @@ export default function Header() {
           />
         </a>
 
-        <LangSwitcher locale={locale} />
+        <LangSwitcher />
       </div>   
     </header>
   );
