@@ -62,7 +62,7 @@ export default function KeywordsSection () {
   const {t} = useTranslation();
 
   return (
-    <div className="px-32 py-10">
+    <div className="bg-white px-32 py-10">
       <div className="text-2xl font-bold mb-8">{t("keywordsSection.keywords")}</div>
 
       <div className="flex text-center">

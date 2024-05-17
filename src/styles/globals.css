@@ -9,13 +9,17 @@
 }
 
 body {
-  background: #FFFFFF;
+  background: rgb(var(--primary-bg));
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.bg-white {
+  background-color: #FFFFFF;
 }
 
 .bg-primary {
