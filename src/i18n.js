@@ -23,7 +23,7 @@ export default async function initTranslations(
   }
 
   await i18nInstance.init({
-    debug: true,
+    // debug: true,
     lng: locale,
     resources,
     fallbackLng: i18nConfig.defaultLocale,

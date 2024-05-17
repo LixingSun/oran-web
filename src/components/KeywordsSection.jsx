@@ -11,7 +11,6 @@ const KeywordsCol = ({t, index, imgSrc, imgAlt, titleTrans, keywordsTrans}) => {
         alt={imgAlt}
         width={52}
         height={52}
-        priority
       />
       <div className="text-lg font-bold text-secondary my-3">{t(titleTrans)}</div>
       {

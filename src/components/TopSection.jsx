@@ -30,7 +30,6 @@ export default function TopSection() {
           alt="Banner Photo"
           width={380}
           height={380}
-          priority
         />
       </div>
     </div>
