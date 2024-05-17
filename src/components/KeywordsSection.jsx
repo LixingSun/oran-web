@@ -64,9 +64,9 @@ export default function KeywordsSection () {
 
   return (
     <div className="px-32 py-10">
-      <div className="text-2xl font-bold">{t("keywordsSection.keywords")}</div>
+      <div className="text-2xl font-bold mb-8">{t("keywordsSection.keywords")}</div>
 
-      <div className="flex mt-8 text-center">
+      <div className="flex text-center">
         {
           KEYWORDS_DATA.map(({imgSrc, imgAlt, titleTrans, keywordsTrans}, index) => (
             <KeywordsCol

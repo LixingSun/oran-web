@@ -23,5 +23,17 @@
     "design": "Sketch/Figma",
     "atlassian": "Atlassian Products",
     "trello": "Trello"
+  },
+  "experienceSection": {
+    "experience": "Experience",
+    "projects": "Projects",
+    "companies": [
+      {
+        "name": "Thoughtworks",
+        "titles": "Senior Consultant / Senior UI Dev / Tech Lead",
+        "period": "2018-2023",
+        "summary": "Delivered several cross-region projects in Agile way with high quality. Played as the lead role in the delivery team, contributing on both technical and business sides with clients. Also served as the member of department core team and office frontend community core team."
+      }
+    ]
   }
 }

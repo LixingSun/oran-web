@@ -4,6 +4,7 @@
 
 :root {
   --primary-bg: 17, 73, 124;
+  --secondary-bg: 215, 229, 240;
   --secondary-color: 96, 168, 211;
 }
 
@@ -19,6 +20,10 @@ body {
 
 .bg-primary {
   background-color: rgb(var(--primary-bg));
+}
+
+.bg-secondary {
+  background-color: rgb(var(--secondary-bg));
 }
 
 .text-secondary {
