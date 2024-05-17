@@ -18,10 +18,7 @@ export default function LangSwitcher () {
     date.setTime(date.getTime() + days * 24 * 60 * 60 * 1000);
     document.cookie = `NEXT_LOCALE=${newLocale};expires=${date.toUTCString()};path=/`;
 
-    if (
-      locale === i18nConfig.defaultLocale &&
-      !i18nConfig.prefixDefault
-    ) {
+    if (locale === i18nConfig.defaultLocale && currentPathname.indexOf(`/${i18nConfig.defaultLocale}`) < 0) {
       router.push('/' + newLocale + currentPathname);
     } else {
       router.push(
