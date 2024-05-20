@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import TopSection from "@/components/TopSection";
 import KeywordsSection from "@/components/KeywordsSection";
 import ExperienceSection from "@/components/ExperienceSection";
+import LifeSection from "@/components/LifeSection";
 
 const i18nNamespaces = ["home"];
 
@@ -24,6 +25,8 @@ export default async function HomeContent({ locale }) {
         <KeywordsSection />
 
         <ExperienceSection />
+
+        <LifeSection />
 
         <Footer />
       </main>

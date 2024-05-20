@@ -107,5 +107,18 @@
         "summary": "Contributed as a developer since startup of this esports data service company. Individually took charge of various web applications development and worked with PM on evolution of multiple products."
       }
     ]
+  },
+  "lifeSection": {
+    "aboutLife": "More About My Life",
+    "content": [
+      {
+        "title": "Travel",
+        "content": "I pretty enjoy travel with my family. It makes me keep experiencing new sight and culture, also meet new people with different background. It also help me get out of the urban life and get closer to nature."
+      },
+      {
+        "title": "Esports",
+        "content": "Video game is my favorite way of having fun since very young. I enjoy every single journey which is full of uncertainty especially with friends, or diving into the fantastic worlds that game producers design. For my favorite Esports game TFT (Teamfight Tactics), I enjoy playing against the top players in China or even in the world. I have even attended a few competitions and luckily won some prizes including championship."
+      }
+    ]
   }
 }
