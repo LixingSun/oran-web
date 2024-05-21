@@ -26,10 +26,11 @@ export default function TopSection() {
       
       <div className="mt-8 lg:mt-0">
         <Image
-          src="http://cdn.oran.zone/home/my_photo%402x.png"
+          src="https://cdn.oran.zone/home/my_photo%402x.png"
           alt="Banner Photo"
           width={400}
           height={300}
+          priority
         />
       </div>
     </div>

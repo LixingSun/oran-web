@@ -8,12 +8,12 @@ import "react-image-gallery/styles/css/image-gallery.css";
 
 const imageLinks = [  
   {
-    original: "http://cdn.oran.zone/home/life_travel.png",
-    thumbnail: "http://cdn.oran.zone/home/life_travel_thumbnail.png",
+    original: "https://cdn.oran.zone/home/life_travel.png",
+    thumbnail: "https://cdn.oran.zone/home/life_travel_thumbnail.png",
   },
   {
-    original: "http://cdn.oran.zone/home/life_gaming.png",
-    thumbnail: "http://cdn.oran.zone/home/life_gaming_thumbnail.png",
+    original: "https://cdn.oran.zone/home/life_gaming.png",
+    thumbnail: "https://cdn.oran.zone/home/life_gaming_thumbnail.png",
   }
 ];
 
