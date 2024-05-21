@@ -12,6 +12,10 @@ const imageLinks = [
     thumbnail: "https://cdn.oran.zone/home/life_travel_thumbnail.png",
   },
   {
+    original: "https://cdn.oran.zone/home/life_drawing.png",
+    thumbnail: "https://cdn.oran.zone/home/life_drawing_thumbnail.png",
+  },
+  {
     original: "https://cdn.oran.zone/home/life_gaming.png",
     thumbnail: "https://cdn.oran.zone/home/life_gaming_thumbnail.png",
   }
@@ -51,7 +55,7 @@ export default function LifeSection() {
         </div>
         
         <div className="w-full lg:w-1/2">
-          <div className="text-lg font-bold text-secondary mb-3">{currentContent.title}</div>
+          <div className="text-lg font-bold text-main mb-3">{currentContent.title}</div>
           <div>{currentContent.content}</div>
         </div>
       </div>

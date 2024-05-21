@@ -27,6 +27,7 @@
   "experienceSection": {
     "experience": "Experience",
     "projects": "Projects",
+    "confidentialNote": "*Due to confidentiality agreement, no demonstration is availalbe",
     "companies": [
       {
         "name": "Thoughtworks",
@@ -34,12 +35,33 @@
         "period": "2018 - 2023",
         "region": "Asia",
         "summary": "Delivered several cross-region projects in Agile way with high quality. Played as the lead role in the delivery team, contributing on both technical and business sides with clients. Also served as the member of department core team and office frontend community core team.",
+        "tags": [
+          "Agile",
+          "React",
+          "Angular",
+          "Kotlin",
+          "PostgreSQL",
+          "AWS",
+          "Azure",
+          "Atlassian"
+        ],
         "projects": [
           {
             "name": "Cross Region Banking Platform",
             "region": "Asia",
             "title": "Tech Lead",
             "period": "Sep 2022 - Jan 2023",
+            "tags": [
+              "React",
+              "tailwindcss",
+              "microfrontend",
+              "microservice",
+              "Java",
+              "Jira",
+              "Confluence",
+              "Bitbucket",
+              "Jenkins"
+            ],
             "summary": [
               "Led an Agile team taking charge of an essential business module in the Web platform, which under a microfrontend & microservice architecture. ",
               "Achieved multiple releases through collaboration with several internal teams.",
@@ -52,6 +74,11 @@
             "region": "Asia",
             "title": "Internal Consultant",
             "period": "Mar 2022 - Sep 2022",
+            "tags": [
+              "Mural",
+              "Trello",
+              "piktochart"
+            ],
             "summary": [
               "Supported leadership team of 2 projects to accomplish their big-bang releases.",
               "Identified issues & risks of the delivery and further planned with the core team.",
@@ -63,6 +90,18 @@
             "region": "Asia",
             "title": "Tech Lead",
             "period": "Feb 2021 - Jan 2022",
+            "tags": [
+              "React",
+              "Nest.js",
+              "Typescript",
+              "microservice",
+              "PostgreSQL",
+              "Jira",
+              "Confluence",
+              "Bitbucket",
+              "Bamboo",
+              "Azure"
+            ],
             "summary": [
               "Evolved micro-service architecture under the program",
               "Led team on development with Agile Engineering Practices, and keep improving team way of working",
@@ -77,6 +116,18 @@
             "region": "Asia",
             "title": "UI Lead",
             "period": "Jul 2019 – Nov 2020",
+            "tags": [
+              "React",
+              "Angular",
+              "Styleguidist",
+              "PostgreSQL",
+              "Kotlin",
+              "Jira",
+              "Confluence",
+              "Bitbucket",
+              "Bamboo",
+              "AWS"
+            ],
             "summary": [
               "Worked with clients during inception phase and produced a clear and reliable foundation of the project",
               "Led team on development with Agile Engineering Practices, and keep improving team way of working",
@@ -90,6 +141,12 @@
             "region": "Oceania",
             "title": "UI Developer",
             "period": "Dec 2018 – Jun 2019",
+            "tags": [
+              "React",
+              "Jira",
+              "Confluence",
+              "Bitbucket"
+            ],
             "summary": [
               "Took charge of form related UI features with React",
               "Took charge of integration features including cross-team communication and related knowledge sharing",
@@ -103,7 +160,17 @@
         "titles": "Core UI Developer",
         "period": "2016 - 2018",
         "region": "China",
-        "summary": "Contributed as a developer since startup of this esports data service company. Individually took charge of various web applications development and worked with PM on evolution of multiple products."
+        "summary": "Contributed as a developer since startup of this esports data service company. Individually took charge of various web applications development and worked with PM on evolution of multiple products.",
+        "tags": [
+          "Vue",
+          "D3.js",
+          "echarts",
+          "Node.js",
+          "socket.io",
+          "iView",
+          "Material Design",
+          "Polymer"
+        ]
       }
     ]
   },
@@ -113,6 +180,10 @@
       {
         "title": "Travel",
         "content": "I pretty enjoy travel with my family. It makes me keep experiencing new sight and culture, also meet new people with different background. It also help me get out of the urban life and get closer to nature."
+      },
+      {
+        "title": "Drawing",
+        "content": "Influenced by my parents, I started learning drawing when I was a child. I have experienced various type of drawing such as traditional Chinese painting and oil painting. It does help me keep improving the aesthetics and stay creative. Recent years I start interested in pixel art and enjoy making some pieces with Procreate on iPad or Aseprite on PC."
       },
       {
         "title": "Esports",

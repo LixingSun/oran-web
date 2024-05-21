@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useTranslation } from 'react-i18next';
+import Tag from '@/components/Tag';
 
 export default function ExperienceSection() {
   const {t} = useTranslation();
@@ -27,6 +28,11 @@ export default function ExperienceSection() {
             <div>{translation.companies[0].period} / {translation.companies[0].region}</div>
           </div>
           <div>{translation.companies[0].summary}</div>
+          <div className="flex flex-wrap mt-4">
+            { translation.companies[0].tags.map(tag => (
+              <Tag key={tag} text={tag} />
+            ))}
+          </div>
         </div>
 
         <div>
@@ -36,6 +42,11 @@ export default function ExperienceSection() {
             <div>{translation.companies[1].period} / {translation.companies[1].region}</div>
           </div>
           <div>{translation.companies[1].summary}</div>
+          <div className="flex flex-wrap mt-4">
+            { translation.companies[1].tags.map(tag => (
+              <Tag key={tag} text={tag} />
+            ))}
+          </div>
         </div>
       </div>
 
@@ -56,6 +67,11 @@ export default function ExperienceSection() {
                   <li key={summaryIndex}>{summaryItem}</li>
                 ))}
               </ul>
+              <div className="flex flex-wrap mt-4">
+                { project.tags.map(tag => (
+                  <Tag key={tag} text={tag} />
+                ))}
+              </div>
             </div>
           ))
         }

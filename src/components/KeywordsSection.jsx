@@ -12,7 +12,7 @@ const KeywordsCol = ({t, index, imgSrc, imgAlt, titleTrans, keywordsTrans}) => {
         width={52}
         height={52}
       />
-      <div className="text-lg font-bold text-secondary my-3">{t(titleTrans)}</div>
+      <div className="text-lg font-bold text-main my-3">{t(titleTrans)}</div>
       {
         keywordsTrans.map(
           keywordTrans => (<div key={keywordTrans}>{t(keywordTrans)}</div>)
