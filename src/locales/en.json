@@ -2,8 +2,8 @@
   "about": "About",
   "topSection": {
     "title": "I’m Lixing SUN",
-    "subtitle": "A Developer/Consultant based in China. ",
-    "paragraph": "Have 7 years of software development experience. While focusing more on frontend, also have practical experience in backend development, architecture design and DevOps. Experienced in E2E products from idea to release. Have deep understanding of Agile development, with rich experience of leading Agile team. A motivated, resonsible, team-oriented fast learner with strong can-do attitude.",
+    "subtitle": "A Developer/Consultant based in China.",
+    "paragraph": "With 7 years of software development experience, I specialize in frontend development while also possessing practical expertise in backend development, architecture design, and DevOps. I have successfully managed several end-to-end product lifecycles from conceptualization to release. Extensive experience leading Agile teams helps me have deep understanding of Agile development. I am a motivated, responsible, and team-oriented professional, known for my fast learning ability and strong can-do attitude.",
     "resume": "Browse my resume to know more about me"
   },
   "keywordsSection": {
@@ -27,14 +27,14 @@
   "experienceSection": {
     "experience": "Experience",
     "projects": "Projects",
-    "confidentialNote": "*Due to confidentiality agreement, no demonstration is availalbe",
+    "confidentialNote": "*Due to the confidentiality agreement, no demonstrations are available.",
     "companies": [
       {
         "name": "Thoughtworks",
         "titles": "Senior Consultant / Senior UI Dev / Tech Lead",
         "period": "2018 - 2023",
         "region": "Asia",
-        "summary": "Delivered several cross-region projects in Agile way with high quality. Played as the lead role in the delivery team, contributing on both technical and business sides with clients. Also served as the member of department core team and office frontend community core team.",
+        "summary": "Successfully delivered several cross-region projects using Agile methodologies, ensuring high quality and receiving positive feedback from clients. Served as the lead role in the delivery team, contributing to both technical and business aspects in collaboration with clients. Additionally, I was a key member of the department core team and the office frontend community core team.",
         "tags": [
           "Agile",
           "React",
@@ -63,10 +63,10 @@
               "Jenkins"
             ],
             "summary": [
-              "Led an Agile team taking charge of an essential business module in the Web platform, which under a microfrontend & microservice architecture. ",
-              "Achieved multiple releases through collaboration with several internal teams.",
-              "Promoted several improvement on tech stack and Agile way of working.",
-              "Established strong and reliable relationship with the new client."
+              "Led an Agile team taking charge of an essential new business module in the Web platform, which under a microfrontend & microservice architecture",
+              "Achieved multiple releases through collaboration with several internal teams",
+              "Promoted several improvement on tech stack and Agile way of working",
+              "Established strong and reliable relationship with the new client"
             ]
           },
           {
@@ -80,9 +80,9 @@
               "piktochart"
             ],
             "summary": [
-              "Supported leadership team of 2 projects to accomplish their big-bang releases.",
-              "Identified issues & risks of the delivery and further planned with the core team.",
-              "Built culture of continuous improvement and uplifted abilities of core members."
+              "Provided consultation to leadership team of 2 projects to accomplish their big-bang releases",
+              "Identified issues & risks of the delivery and further planned with the core team",
+              "Built culture of continuous improvement and uplifted abilities of core members"
             ]
           },
           {
@@ -103,10 +103,10 @@
               "Azure"
             ],
             "summary": [
+              "Led team to provide quick response for urgent business requirement during COVID, and won national prize",
               "Evolved micro-service architecture under the program",
               "Led team on development with Agile Engineering Practices, and keep improving team way of working",
               "Enhanced the existing system on various dimensions (e.g. security, quality, etc.)",
-              "Led team to provide quick response for urgent business requirement from clients",
               "Act as the anchor of the team with client higher management and other parties",
               "Led team on infrastructure and CI/CD on Azure Cloud"
             ]
@@ -160,7 +160,7 @@
         "titles": "Core UI Developer",
         "period": "2016 - 2018",
         "region": "China",
-        "summary": "Contributed as a developer since startup of this esports data service company. Individually took charge of various web applications development and worked with PM on evolution of multiple products.",
+        "summary": "Contributed as a core developer since the startup of this esports data service company. Independently managed the development of various web applications and collaborated with product managers on the evolution of multiple products.",
         "tags": [
           "Vue",
           "D3.js",
@@ -179,15 +179,15 @@
     "content": [
       {
         "title": "Travel",
-        "content": "I pretty enjoy travel with my family. It makes me keep experiencing new sight and culture, also meet new people with different background. It also help me get out of the urban life and get closer to nature."
+        "content": "I greatly enjoy traveling with my family. It allows me to experience new sights and cultures, and to meet people from diverse backgrounds. Traveling helps me escape the hustle and bustle of urban life and reconnect with nature. Each journey is a new adventure, enriching my perspective and creating lasting memories with my loved ones."
       },
       {
         "title": "Drawing",
-        "content": "Influenced by my parents, I started learning drawing when I was a child. I have experienced various type of drawing such as traditional Chinese painting and oil painting. It does help me keep improving the aesthetics and stay creative. Recent years I start interested in pixel art and enjoy making some pieces with Procreate on iPad or Aseprite on PC."
+        "content": "Influenced by my parents, I began learning to draw as a child. I have explored various forms of art, such as traditional Chinese painting and oil painting. This artistic journey has continuously improved my aesthetic sense and nurtured my creativity. In recent years, I have developed an interest in pixel art and enjoy creating pieces using Procreate on my iPad or Aseprite on my PC. Drawing remains a profound way for me to express myself and stay imaginative."
       },
       {
         "title": "Esports",
-        "content": "Video game is my favorite way of having fun since very young. I enjoy every single journey which is full of uncertainty especially with friends, or diving into the fantastic worlds that game producers design. For my favorite Esports game TFT (Teamfight Tactics), I enjoy playing against the top players in China or even in the world. I have even attended a few competitions and luckily won some prizes including championship."
+        "content": "Video games have been my favorite pastime since I was very young. I love the thrill of unpredictable journeys, especially when playing with friends, and immersing myself in the fantastical worlds created by game developers. My favorite esports game is Teamfight Tactics (TFT), where I enjoy competing against top players from China and around the world. I have participated in several competitions and won some prizes including a championship. Gaming not only entertains me but also sharpens my strategic thinking and teamwork skills."
       }
     ]
   }

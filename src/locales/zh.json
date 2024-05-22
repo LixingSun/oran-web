@@ -1,40 +1,40 @@
 {
   "about": "关于",
   "topSection": {
-    "title": "I’m Lixing SUN",
-    "subtitle": "A Developer/Consultant based in China. ",
-    "paragraph": "Have 7 years of software development experience. While focusing more on frontend, also have practical experience in backend development, architecture design and DevOps. Experienced in E2E products from idea to release. Have deep understanding of Agile development, with rich experience of leading Agile team. A motivated, resonsible, team-oriented fast learner with strong can-do attitude.",
-    "resume": "Browse my resume to know more about me"
+    "title": "我是孙力行",
+    "subtitle": "一个生活在中国的开发者兼咨询师",
+    "paragraph": "我拥有七年的软件开发经验，在专注于前端开发的同时也具备后端开发、架构设计和DevOps的项目经验。成功管理过多个从概念到发布的端到端产品生命周期。丰富的敏捷团队领导经验使我对敏捷开发有深刻的理解。我是一个积极进取、责任心强且注重团队合作的专业人士，以快速学习能力和出色的can-do态度著称。",
+    "resume": "我的简历可以帮助你更多地了解我"
   },
   "keywordsSection": {
-    "keywords": "Keywords",
-    "ui": "UI Development",
+    "keywords": "关键词",
+    "ui": "前端开发",
     "frameworks": "React/Vue/Angular",
-    "testing": "Automated Testing",
-    "responsive": "Responsive Design",
-    "charts": "Charts",
-    "engineering": "Engineering",
-    "agile": "Agile Development",
+    "testing": "自动化测试",
+    "responsive": "响应式设计",
+    "charts": "图表组件",
+    "engineering": "软件工程",
+    "agile": "敏捷开发",
     "cicd": "CI/CD",
     "cloud": "AWS/Azure",
-    "architecture": "Architecture Design",
-    "tools": "Tools",
+    "architecture": "架构设计",
+    "tools": "工具",
     "ide": "VSCode/Jetbrains",
     "design": "Sketch/Figma",
-    "atlassian": "Atlassian Products",
+    "atlassian": "Atlassian系列",
     "trello": "Trello"
   },
   "experienceSection": {
-    "experience": "Experience",
-    "projects": "Projects",
-    "confidentialNote": "*Due to confidentiality agreement, no demonstration is availalbe",
+    "experience": "工作经历",
+    "projects": "项目经历",
+    "confidentialNote": "*由于保密协议的缘故，下列项目无法提供在线演示及更多细节",
     "companies": [
       {
         "name": "Thoughtworks",
-        "titles": "Senior Consultant / Senior UI Dev / Tech Lead",
+        "titles": "高级咨询师 / 高级前端开发 / Tech Lead",
         "period": "2018 - 2023",
         "region": "Asia",
-        "summary": "Delivered several cross-region projects in Agile way with high quality. Played as the lead role in the delivery team, contributing on both technical and business sides with clients. Also served as the member of department core team and office frontend community core team.",
+        "summary": "以敏捷团队成功交付了多个高质量的跨国合作项目，并多次获得了客户的高度肯定。在交付团队中多次担任领导角色，在合作过程中能在技术和业务方面均做出贡献。此外还担任了部门核心团队和前端社区核心团队的重要成员。",
         "tags": [
           "Agile",
           "React",
@@ -47,15 +47,15 @@
         ],
         "projects": [
           {
-            "name": "Cross Region Banking Platform",
-            "region": "Asia",
+            "name": "跨国银行Web平台",
+            "region": "亚洲",
             "title": "Tech Lead",
             "period": "Sep 2022 - Jan 2023",
             "tags": [
               "React",
               "tailwindcss",
-              "microfrontend",
-              "microservice",
+              "微前端",
+              "微服务",
               "Java",
               "Jira",
               "Confluence",
@@ -63,16 +63,16 @@
               "Jenkins"
             ],
             "summary": [
-              "Led an Agile team taking charge of an essential business module in the Web platform, which under a microfrontend & microservice architecture. ",
-              "Achieved multiple releases through collaboration with several internal teams.",
-              "Promoted several improvement on tech stack and Agile way of working.",
-              "Established strong and reliable relationship with the new client."
+              "领导敏捷团队负责了该集团Web平台中的一个关键新业务模块，该平台采用了微前端及微服务架构",
+              "与客户方多个团队高效合作，成功实现了产品的多次发布",
+              "在技术栈和敏捷工作方式上推动了多项改进，在得到肯定的同时也由客户自发进行了推广",
+              "成功与新客户快速建立了信赖的关系，为后续商机提供了助力"
             ]
           },
           {
-            "name": "Delivery Consultation",
-            "region": "Asia",
-            "title": "Internal Consultant",
+            "name": "交付咨询",
+            "region": "亚洲",
+            "title": "内部咨询师",
             "period": "Mar 2022 - Sep 2022",
             "tags": [
               "Mural",
@@ -80,21 +80,21 @@
               "piktochart"
             ],
             "summary": [
-              "Supported leadership team of 2 projects to accomplish their big-bang releases.",
-              "Identified issues & risks of the delivery and further planned with the core team.",
-              "Built culture of continuous improvement and uplifted abilities of core members."
+              "为公司两个核心项目的领导团队提供了咨询，并推动了他们的大爆炸式发布顺利完成",
+              "识别交付中的问题和风险，并与交付团队的核心团队一同进一步规划",
+              "帮助团队建立起持续改进的文化，并有针对性地提升了核心成员的综合能力"
             ]
           },
           {
-            "name": "Multi-track Government Project (Health Sector)",
-            "region": "Asia",
+            "name": "多团队政府Web项目（卫生部门）",
+            "region": "亚洲",
             "title": "Tech Lead",
             "period": "Feb 2021 - Jan 2022",
             "tags": [
               "React",
               "Nest.js",
               "Typescript",
-              "microservice",
+              "微服务",
               "PostgreSQL",
               "Jira",
               "Confluence",
@@ -103,19 +103,19 @@
               "Azure"
             ],
             "summary": [
-              "Evolved micro-service architecture under the program",
-              "Led team on development with Agile Engineering Practices, and keep improving team way of working",
-              "Enhanced the existing system on various dimensions (e.g. security, quality, etc.)",
-              "Led team to provide quick response for urgent business requirement from clients",
-              "Act as the anchor of the team with client higher management and other parties",
-              "Led team on infrastructure and CI/CD on Azure Cloud"
+              "在疫情期间带领团队快速响应客户的紧急业务需求，并获得嘉奖",
+              "演进了项目内的微服务架构，并为客户提供了相关咨询",
+              "带领团队使用敏捷实践进行开发，并不断改进团队的工作方式",
+              "持续提升系统在诸多跨功能性需求方面的表现（如安全性、质量等）",
+              "承担了团队与客户高层管理和其他第三方的关键联络人角色",
+              "带领团队在Azure云上顺利进行基础设施和CI/CD的工作"
             ]
           },
           {
-            "name": "Government Platform (General Sector)",
-            "region": "Asia",
+            "name": "政府Web平台（一般部门）",
+            "region": "亚洲",
             "title": "UI Lead",
-            "period": "Jul 2019 – Nov 2020",
+            "period": "Jul 2019 - Nov 2020",
             "tags": [
               "React",
               "Angular",
@@ -129,17 +129,17 @@
               "AWS"
             ],
             "summary": [
-              "Worked with clients during inception phase and produced a clear and reliable foundation of the project",
-              "Led team on development with Agile Engineering Practices, and keep improving team way of working",
-              "Act as the anchor of the team with client higher management and other parties, affecting both business decisions and technical solutions (e.g. component library)",
-              "Hosted integration with downstream systems including standardized interface design, communication, implementation and following SIT",
-              "Led team on infrastructure and CI/CD on AWS Cloud"
+              "从立项阶段开始与客户合作，通过工作坊为后续交付建立了清晰可靠的项目基础",
+              "带领团队使用敏捷实践进行开发，并不断改进团队的工作方式",
+              "作为团队与客户高层管理和其他第三方的关键联络人，主导多个业务决策和技术解决方案（如公用组件库）",
+              "领导了与下游系统的集成，包括标准化接口设计、跨团队沟通、实际开发和后续的系统集成测试",
+              "带领团队在AWS云上顺利进行基础设施和CI/CD的工作"
             ]
           },
           {
-            "name": "Insurance Group Platform",
-            "region": "Oceania",
-            "title": "UI Developer",
+            "name": "保险集团Web平台",
+            "region": "澳洲",
+            "title": "前端开发",
             "period": "Dec 2018 – Jun 2019",
             "tags": [
               "React",
@@ -148,19 +148,19 @@
               "Bitbucket"
             ],
             "summary": [
-              "Took charge of form related UI features with React",
-              "Took charge of integration features including cross-team communication and related knowledge sharing",
-              "Helped BAs and QAs in team on analysis and testing of complex features"
+              "使用React实现表单相关的功能",
+              "负责了多个集团内通用组件的集成任务，包括跨团队沟通和相关知识分享",
+              "帮助团队中的业务分析师和测试工程师分析和测试多个复杂的功能"
             ]
           }
         ]
       },
       {
-        "name": "Risewinter Technology",
-        "titles": "Core UI Developer",
+        "name": "浮冬数据科技有限公司",
+        "titles": "核心前端开发",
         "period": "2016 - 2018",
-        "region": "China",
-        "summary": "Contributed as a developer since startup of this esports data service company. Individually took charge of various web applications development and worked with PM on evolution of multiple products.",
+        "region": "中国",
+        "summary": "从这家电竞数据公司创业开始便参与其中，担任核心前端开发的角色。独立负责了多个Web应用的开发工作，并与产品经理合作推进了多个产品的演进。",
         "tags": [
           "Vue",
           "D3.js",
@@ -175,19 +175,19 @@
     ]
   },
   "lifeSection": {
-    "aboutLife": "More About My Life",
+    "aboutLife": "我的生活",
     "content": [
       {
-        "title": "Travel",
-        "content": "I pretty enjoy travel with my family. It makes me keep experiencing new sight and culture, also meet new people with different background. It also help me get out of the urban life and get closer to nature."
+        "title": "旅游",
+        "content": "我非常享受与家人一起旅行，这让我能够不断体验新的风景和文化，结识来自不同背景的人。旅行也帮助我远离城市生活的喧嚣，重新亲近大自然。每一次旅行都是那么独一无二，既丰富了我的内心世界，也创造了许多弥足珍贵的回忆。"
       },
       {
-        "title": "Drawing",
-        "content": "Influenced by my parents, I started learning drawing when I was a child. I have experienced various type of drawing such as traditional Chinese painting and oil painting. It does help me keep improving the aesthetics and stay creative. Recent years I start interested in pixel art and enjoy making some pieces with Procreate on iPad or Aseprite on PC."
+        "title": "绘画",
+        "content": "或许是受父母的影响，我从小就开始学习绘画。我体验过许多不同类型的绘画，比如中国传统绘画和油画。不断接触新的艺术形式帮我持续提高着审美观，同时也培养着我的创造力。最近几年我对像素艺术产生了浓厚的兴趣，并尝试用iPad上的Procreate或PC上的Aseprite进行绘画。绘画已然成为了我表达自我和保持想象力的重要方式。"
       },
       {
-        "title": "Esports",
-        "content": "Video game is my favorite way of having fun since very young. I enjoy every single journey which is full of uncertainty especially with friends, or diving into the fantastic worlds that game producers design. For my favorite Esports game TFT (Teamfight Tactics), I enjoy playing against the top players in China or even in the world. I have even attended a few competitions and luckily won some prizes including championship."
+        "title": "游戏",
+        "content": "从小时候起电子游戏就成为了我最喜欢的消遣方式。我喜欢与朋友一起体验充满不确定性的冒险旅程，亦或是遨游在游戏开发者创造的奇幻世界中。我最喜欢的电竞游戏是云顶之弈（TFT），我享受有机会与中国乃至世界的顶尖玩家较量的机会。我还多次参加云顶的公开赛，并有幸取得了一些成绩包括冠军。游戏不仅带给我快乐，有时也能帮我磨练我的战略思维和团队合作能力。"
       }
     ]
   }
