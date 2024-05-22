@@ -2,22 +2,22 @@
 
 import { useState } from "react";
 import { useTranslation } from 'react-i18next';
-
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
+import { CDN_HOST } from "@/config";
 
 const imageLinks = [  
   {
-    original: "https://cdn.oran.zone/home/life_travel.png",
-    thumbnail: "https://cdn.oran.zone/home/life_travel_thumbnail.png",
+    original: `${CDN_HOST}/home/life_travel.png`,
+    thumbnail: `${CDN_HOST}/home/life_travel_thumbnail.png`,
   },
   {
-    original: "https://cdn.oran.zone/home/life_drawing.png",
-    thumbnail: "https://cdn.oran.zone/home/life_drawing_thumbnail.png",
+    original: `${CDN_HOST}/home/life_drawing.png`,
+    thumbnail: `${CDN_HOST}/home/life_drawing_thumbnail.png`,
   },
   {
-    original: "https://cdn.oran.zone/home/life_gaming.png",
-    thumbnail: "https://cdn.oran.zone/home/life_gaming_thumbnail.png",
+    original: `${CDN_HOST}/home/life_gaming.png`,
+    thumbnail: `${CDN_HOST}/home/life_gaming_thumbnail.png`,
   }
 ];
 

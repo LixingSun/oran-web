@@ -1,0 +1,1 @@
+export const CDN_HOST = "https://cdn.oran.zone";
