@@ -5,17 +5,17 @@ import { useTranslation } from 'react-i18next';
 
 const KeywordsCol = ({t, index, imgSrc, imgAlt, titleTrans, keywordsTrans}) => {
   return (
-    <div className={`flex flex-col items-center w-1/3 ${ index > 0 ? 'border-l-2 border-gray-300':''}`}>
+    <div className={`flex flex-col items-center w-1/3 ${ index > 0 ? 'lg:border-l-2 lg:border-gray-300':''}`}>
       <Image
         src={imgSrc}
         alt={imgAlt}
         width={52}
         height={52}
       />
-      <div className="text-lg font-bold text-main my-3">{t(titleTrans)}</div>
+      <div className="text-sm lg:text-lg font-bold text-main my-3">{t(titleTrans)}</div>
       {
         keywordsTrans.map(
-          keywordTrans => (<div key={keywordTrans}>{t(keywordTrans)}</div>)
+          keywordTrans => (<div key={keywordTrans} className="text-xs lg:text-base">{t(keywordTrans)}</div>)
         )
       }
     </div>
@@ -62,7 +62,7 @@ export default function KeywordsSection () {
   const {t} = useTranslation();
 
   return (
-    <div className="bg-white px-32 py-10">
+    <div className="bg-white p-6 lg:px-32 lg:py-10">
       <div className="text-2xl font-bold mb-8">{t("keywordsSection.keywords")}</div>
 
       <div className="flex text-center">

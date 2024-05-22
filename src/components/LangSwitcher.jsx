@@ -29,5 +29,5 @@ export default function LangSwitcher () {
     router.refresh();
   }
 
-  return <button className="mx-4 text-white" onClick={handleClick}>{locale == LOCALE_EN ? "中文" : "EN"}</button> 
+  return <button className="mx-2 lg:mx-4 text-white" onClick={handleClick}>{locale == LOCALE_EN ? "中文" : "EN"}</button> 
 };

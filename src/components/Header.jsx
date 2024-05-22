@@ -9,7 +9,7 @@ export default function Header() {
   const {t} = useTranslation();
 
   return (
-    <header className="fixed left-0 top-0 w-full flex items-center px-32 py-10 bg-primary">
+    <header className="fixed left-0 top-0 w-full flex items-center bg-primary px-6 py-4 lg:px-32 lg:py-10">
       <Image
         src="/avatar@2x.png"
         alt="Logo"
@@ -23,7 +23,9 @@ export default function Header() {
       </div>
 
       <div className="toolbar flex items-center">
-        <a className="mx-4" href="mailto:slxtrjh325@gmail.com">
+        <a 
+          className="mx-2 lg:mx-4" 
+          href="mailto:slxtrjh325@gmail.com">
           <Image
             src="/icons/email.svg"
             alt="email"
@@ -33,7 +35,7 @@ export default function Header() {
           />
         </a>
         <a 
-          className="mx-4"
+          className="mx-2 lg:mx-4"
           href="https://github.com/LixingSun/" 
           target="_blank">
           <Image

@@ -7,10 +7,9 @@ import { CDN_HOST } from "@/config";
 export default function TopSection() {
   const {t} = useTranslation();
 
-
   return (
-    <div className="flex justify-between px-32 py-10 bg-primary text-white flex-col lg:flex-row">
-      <div className="flex flex-col w-1/2">
+    <div className="flex justify-between p-6 bg-primary text-white flex-col lg:flex-row lg:px-32 lg:py-10">
+      <div className="flex flex-col lg:w-1/2">
         <div className="text-3xl">{t("topSection.title")}</div>
         <div className="text-2xl mt-4">{t("topSection.subtitle")}</div>
         <div className="text-lg mt-4">{t("topSection.paragraph")}</div>
