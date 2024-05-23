@@ -5,10 +5,20 @@ import LangSwitcher from "./LangSwitcher";
 import Link from "next/link";
 import { useTranslation } from 'react-i18next';
 import { NS_COMMON } from "@/i18n.config";
+import { usePathname } from 'next/navigation'
 
 export default function Header() {
   const {t, i18n} = useTranslation(NS_COMMON);
   const locale = i18n.language;
+  const currentPath = usePathname()
+
+  const isActiveTab = (path) => {
+    if (path == "about") {
+      return currentPath == "/" || currentPath == `/${locale}`
+    } 
+
+    return currentPath.indexOf(path) >= 0
+  }
 
   return (
     <header className="fixed left-0 top-0 w-full flex items-center bg-side px-6 py-4 lg:px-32 lg:py-10">
@@ -21,8 +31,8 @@ export default function Header() {
       />
 
       <div className="flex flex-1 text-lg ml-12">
-        <Link className="text-white mx-3" href={`/${locale}`}>{t("about")}</Link>
-        <Link className="text-white mx-3" href={`/${locale}/blogs`}>{t("blogs")}</Link>
+        <Link className={`${isActiveTab("about") ? "text-white" : "text-grey"} hover:text-white transition mx-3`} href={`/${locale}`}>{t("about")}</Link>
+        <Link className={`${isActiveTab("blogs") ? "text-white" : "text-grey"} hover:text-white transition mx-3`} href={`/${locale}/blogs`}>{t("blogs")}</Link>
       </div>
 
       <div className="toolbar flex items-center">
