@@ -9,7 +9,7 @@ export default function Header() {
   const {t} = useTranslation();
 
   return (
-    <header className="fixed left-0 top-0 w-full flex items-center bg-primary px-6 py-4 lg:px-32 lg:py-10">
+    <header className="fixed left-0 top-0 w-full flex items-center bg-side px-6 py-4 lg:px-32 lg:py-10">
       <Image
         src="/avatar@2x.png"
         alt="Logo"

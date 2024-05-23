@@ -56,7 +56,7 @@ export default function LifeSection() {
         
         <div className="w-full mt-4 lg:w-1/2 lg:mt-0">
           <div className="text-lg font-bold text-main mb-3 text-center lg:text-start">{currentContent.title}</div>
-          <div>{currentContent.content}</div>
+          <div className="text-sm lg:text-base">{currentContent.content}</div>
         </div>
       </div>
     </div>

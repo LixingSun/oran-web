@@ -12,10 +12,10 @@ export default function TopSection() {
       <div className="flex flex-col lg:w-1/2">
         <div className="text-3xl">{t("topSection.title")}</div>
         <div className="text-2xl mt-4">{t("topSection.subtitle")}</div>
-        <div className="text-lg mt-4">{t("topSection.paragraph")}</div>
+        <div className="text-base lg:text-lg mt-4">{t("topSection.paragraph")}</div>
         <div className="flex-1" />
         <div className="flex items-center mt-8">
-          <div className="mr-4">{t("topSection.resume")}</div>
+          <div className="text-sm lg:text-base mr-4">{t("topSection.resume")}</div>
           <a href={`${CDN_HOST}/home/Resume_LixingSun_EN.pdf`} target="_blank" download="cv">
             <Image
               src="/icons/download.svg"
