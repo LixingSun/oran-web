@@ -3,9 +3,10 @@
 import Image from "next/image";
 import { useTranslation } from 'react-i18next';
 import Tag from '@/components/Tag';
+import { NS_HOME } from "@/i18n.config";
 
 export default function ExperienceSection() {
-  const {t} = useTranslation();
+  const {t} = useTranslation(NS_HOME);
 
   const translation = t("experienceSection", {returnObjects: true});
 

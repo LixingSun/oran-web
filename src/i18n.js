@@ -16,8 +16,8 @@ export default async function initTranslations(
   if (!resources) {
     i18nInstance.use(
       resourcesToBackend(
-        (language) =>
-          import(`@/locales/${language}.json`)
+        (language, namespace) =>
+          import(`@/locales/${language}/${namespace}.json`)
       )
     );
   }

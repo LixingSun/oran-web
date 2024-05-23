@@ -6,8 +6,9 @@ import TopSection from "@/components/TopSection";
 import KeywordsSection from "@/components/KeywordsSection";
 import ExperienceSection from "@/components/ExperienceSection";
 import LifeSection from "@/components/LifeSection";
+import { NS_COMMON, NS_HOME } from "@/i18n.config";
 
-const i18nNamespaces = ["home"];
+const i18nNamespaces = [NS_COMMON, NS_HOME];
 
 export default async function HomeContent({ locale }) {
   const { resources } = await initTranslations(locale, i18nNamespaces);

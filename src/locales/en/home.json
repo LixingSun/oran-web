@@ -1,0 +1,193 @@
+{
+  "topSection": {
+    "title": "I’m Lixing SUN",
+    "subtitle": "A Developer/Consultant based in China.",
+    "paragraph": "With 7 years of software development experience, I specialize in frontend development while also possessing practical expertise in backend development, architecture design, and DevOps. I have successfully managed several end-to-end product lifecycles from conceptualization to release. Extensive experience leading Agile teams helps me have deep understanding of Agile development. I am a motivated, responsible, and team-oriented professional, known for my fast learning ability and strong can-do attitude.",
+    "resume": "Check my CV to know more about me"
+  },
+  "keywordsSection": {
+    "keywords": "Keywords",
+    "ui": "UI Development",
+    "frameworks": "React/Vue/Angular",
+    "testing": "Automated Testing",
+    "responsive": "Responsive Design",
+    "charts": "Charts",
+    "engineering": "Engineering",
+    "agile": "Agile Development",
+    "cicd": "CI/CD",
+    "cloud": "AWS/Azure",
+    "architecture": "Architecture Design",
+    "tools": "Tools",
+    "ide": "VSCode/Jetbrains",
+    "design": "Sketch/Figma",
+    "atlassian": "Atlassian Products",
+    "trello": "Trello"
+  },
+  "experienceSection": {
+    "experience": "Experience",
+    "projects": "Projects",
+    "confidentialNote": "*Due to the confidentiality agreement, no demonstrations are available.",
+    "companies": [
+      {
+        "name": "Thoughtworks",
+        "titles": "Senior Consultant / Senior UI Dev / Tech Lead",
+        "period": "2018 - 2023",
+        "region": "Asia",
+        "summary": "Successfully delivered several cross-region projects using Agile methodologies, ensuring high quality and receiving positive feedback from clients. Served as the lead role in the delivery team, contributing to both technical and business aspects in collaboration with clients. Additionally, I was a key member of the department core team and the office frontend community core team.",
+        "tags": [
+          "Agile",
+          "React",
+          "Angular",
+          "Kotlin",
+          "PostgreSQL",
+          "AWS",
+          "Azure",
+          "Atlassian"
+        ],
+        "projects": [
+          {
+            "name": "Cross Region Banking Platform",
+            "region": "Asia",
+            "title": "Tech Lead",
+            "period": "Sep 2022 - Jan 2023",
+            "tags": [
+              "React",
+              "tailwindcss",
+              "microfrontend",
+              "microservice",
+              "Java",
+              "Jira",
+              "Confluence",
+              "Bitbucket",
+              "Jenkins"
+            ],
+            "summary": [
+              "Led an Agile team taking charge of an essential new business module in the Web platform, which under a microfrontend & microservice architecture",
+              "Achieved multiple releases through collaboration with several internal teams",
+              "Promoted several improvement on tech stack and Agile way of working",
+              "Established strong and reliable relationship with the new client"
+            ]
+          },
+          {
+            "name": "Delivery Consultation",
+            "region": "Asia",
+            "title": "Internal Consultant",
+            "period": "Mar 2022 - Sep 2022",
+            "tags": [
+              "Mural",
+              "Trello",
+              "piktochart"
+            ],
+            "summary": [
+              "Provided consultation to leadership team of 2 projects to accomplish their big-bang releases",
+              "Identified issues & risks of the delivery and further planned with the core team",
+              "Built culture of continuous improvement and uplifted abilities of core members"
+            ]
+          },
+          {
+            "name": "Multi-track Government Project (Health Sector)",
+            "region": "Asia",
+            "title": "Tech Lead",
+            "period": "Feb 2021 - Jan 2022",
+            "tags": [
+              "React",
+              "Nest.js",
+              "Typescript",
+              "microservice",
+              "PostgreSQL",
+              "Jira",
+              "Confluence",
+              "Bitbucket",
+              "Bamboo",
+              "Azure"
+            ],
+            "summary": [
+              "Led team to provide quick response for urgent business requirement during COVID, and won national prize",
+              "Evolved micro-service architecture under the program",
+              "Led team on development with Agile Engineering Practices, and keep improving team way of working",
+              "Enhanced the existing system on various dimensions (e.g. security, quality, etc.)",
+              "Act as the anchor of the team with client higher management and other parties",
+              "Led team on infrastructure and CI/CD on Azure Cloud"
+            ]
+          },
+          {
+            "name": "Government Platform (General Sector)",
+            "region": "Asia",
+            "title": "UI Lead",
+            "period": "Jul 2019 – Nov 2020",
+            "tags": [
+              "React",
+              "Angular",
+              "Styleguidist",
+              "PostgreSQL",
+              "Kotlin",
+              "Jira",
+              "Confluence",
+              "Bitbucket",
+              "Bamboo",
+              "AWS"
+            ],
+            "summary": [
+              "Worked with clients during inception phase and produced a clear and reliable foundation of the project",
+              "Led team on development with Agile Engineering Practices, and keep improving team way of working",
+              "Act as the anchor of the team with client higher management and other parties, affecting both business decisions and technical solutions (e.g. component library)",
+              "Hosted integration with downstream systems including standardized interface design, communication, implementation and following SIT",
+              "Led team on infrastructure and CI/CD on AWS Cloud"
+            ]
+          },
+          {
+            "name": "Insurance Group Platform",
+            "region": "Oceania",
+            "title": "UI Developer",
+            "period": "Dec 2018 – Jun 2019",
+            "tags": [
+              "React",
+              "Jira",
+              "Confluence",
+              "Bitbucket"
+            ],
+            "summary": [
+              "Took charge of form related UI features with React",
+              "Took charge of integration features including cross-team communication and related knowledge sharing",
+              "Helped BAs and QAs in team on analysis and testing of complex features"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Risewinter Technology",
+        "titles": "Core UI Developer",
+        "period": "2016 - 2018",
+        "region": "China",
+        "summary": "Contributed as a core developer since the startup of this esports data service company. Independently managed the development of various web applications and collaborated with product managers on the evolution of multiple products.",
+        "tags": [
+          "Vue",
+          "D3.js",
+          "echarts",
+          "Node.js",
+          "socket.io",
+          "iView",
+          "Material Design",
+          "Polymer"
+        ]
+      }
+    ]
+  },
+  "lifeSection": {
+    "aboutLife": "More About My Life",
+    "content": [
+      {
+        "title": "Travel",
+        "content": "I greatly enjoy traveling with my family. It allows me to experience new sights and cultures, and to meet people from diverse backgrounds. Traveling helps me escape the hustle and bustle of urban life and reconnect with nature. Each journey is a new adventure, enriching my perspective and creating lasting memories with my loved ones."
+      },
+      {
+        "title": "Drawing",
+        "content": "Influenced by my parents, I began learning to draw as a child. I have explored various forms of art, such as traditional Chinese painting and oil painting. This artistic journey has continuously improved my aesthetic sense and nurtured my creativity. In recent years, I have developed an interest in pixel art and enjoy creating pieces using Procreate on my iPad or Aseprite on my PC. Drawing remains a profound way for me to express myself and stay imaginative."
+      },
+      {
+        "title": "Esports",
+        "content": "Video games have been my favorite pastime since I was very young. I love the thrill of unpredictable journeys, especially when playing with friends, and immersing myself in the fantastical worlds created by game developers. My favorite esports game is Teamfight Tactics (TFT), where I enjoy competing against top players from China and around the world. I have participated in several competitions and won some prizes including a championship. Gaming not only entertains me but also sharpens my strategic thinking and teamwork skills."
+      }
+    ]
+  }
+}

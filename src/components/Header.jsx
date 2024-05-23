@@ -4,9 +4,11 @@ import Image from "next/image";
 import LangSwitcher from "./LangSwitcher";
 import Link from "next/link";
 import { useTranslation } from 'react-i18next';
+import { NS_COMMON } from "@/i18n.config";
 
 export default function Header() {
-  const {t} = useTranslation();
+  const {t, i18n} = useTranslation(NS_COMMON);
+  const locale = i18n.language;
 
   return (
     <header className="fixed left-0 top-0 w-full flex items-center bg-side px-6 py-4 lg:px-32 lg:py-10">
@@ -19,7 +21,8 @@ export default function Header() {
       />
 
       <div className="flex flex-1 text-lg ml-12">
-        <Link className="text-white" href="/">{t("about")}</Link>
+        <Link className="text-white mx-3" href={`/${locale}`}>{t("about")}</Link>
+        <Link className="text-white mx-3" href={`/${locale}/blogs`}>{t("blogs")}</Link>
       </div>
 
       <div className="toolbar flex items-center">

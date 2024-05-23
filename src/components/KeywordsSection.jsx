@@ -1,5 +1,6 @@
 'use client';
 
+import { NS_HOME } from "@/i18n.config";
 import Image from "next/image";
 import { useTranslation } from 'react-i18next';
 
@@ -59,10 +60,10 @@ const KEYWORDS_DATA = [
 ]
 
 export default function KeywordsSection () {
-  const {t} = useTranslation();
+  const {t} = useTranslation(NS_HOME);
 
   return (
-    <div className="bg-white p-6 lg:px-32 lg:py-10">
+    <div className="p-6 lg:px-32 lg:py-10">
       <div className="text-2xl font-bold mb-8">{t("keywordsSection.keywords")}</div>
 
       <div className="flex text-center">

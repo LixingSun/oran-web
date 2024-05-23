@@ -5,6 +5,7 @@ import { useTranslation } from 'react-i18next';
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
 import { CDN_HOST } from "@/config";
+import { NS_HOME } from "@/i18n.config";
 
 const imageLinks = [  
   {
@@ -22,7 +23,7 @@ const imageLinks = [
 ];
 
 export default function LifeSection() {
-  const {t} = useTranslation();
+  const {t} = useTranslation(NS_HOME);
   
   const imageContent = t("lifeSection.content", {returnObjects: true});
 
@@ -41,7 +42,7 @@ export default function LifeSection() {
   }
 
   return (
-    <div className="bg-white p-6 lg:px-32 lg:py-10">
+    <div className="p-6 lg:px-32 lg:py-10">
       <div className="text-2xl font-bold mb-8">{t("lifeSection.aboutLife")}</div>
 
       <div className="flex justify-between flex-col lg:flex-row">

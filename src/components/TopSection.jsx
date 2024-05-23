@@ -3,9 +3,10 @@
 import Image from "next/image";
 import { useTranslation } from 'react-i18next';
 import { CDN_HOST } from "@/config";
+import { NS_HOME } from "@/i18n.config";
 
 export default function TopSection() {
-  const {t} = useTranslation();
+  const {t} = useTranslation([NS_HOME]);
 
   return (
     <div className="flex justify-between p-6 bg-primary text-white flex-col lg:flex-row lg:px-32 lg:py-10">
