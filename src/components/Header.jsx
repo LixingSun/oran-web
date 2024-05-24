@@ -30,9 +30,9 @@ export default function Header() {
         priority
       />
 
-      <div className="flex flex-1 text-lg ml-12">
-        <Link className={`${isActiveTab("about") ? "text-white" : "text-grey"} hover:text-white transition mx-3`} href={`/${locale}`}>{t("about")}</Link>
-        <Link className={`${isActiveTab("blogs") ? "text-white" : "text-grey"} hover:text-white transition mx-3`} href={`/${locale}/blogs`}>{t("blogs")}</Link>
+      <div className="flex flex-1 text-lg ml-4 lg:ml-12">
+        <Link className={`${isActiveTab("about") ? "text-white" : "text-grey"} hover:text-white transition mx-2`} href={`/${locale}`}>{t("about")}</Link>
+        <Link className={`${isActiveTab("blogs") ? "text-white" : "text-grey"} hover:text-white transition mx-2`} href={`/${locale}/blogs`}>{t("blogs")}</Link>
       </div>
 
       <div className="toolbar flex items-center">
