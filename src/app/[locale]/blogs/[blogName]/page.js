@@ -3,17 +3,20 @@ import initTranslations from "@/i18n";
 import TranslationsProvider from '@/components/TranslationsProvider';
 import Header from "@/components/Header" ;
 import Footer from "@/components/Footer";
-import BlogCard from "@/components/BlogCard";
-import blogData from "./data";
+import blogList from "@/markdowns";
+import { MDXRemote } from 'next-mdx-remote/rsc';
 
 const i18nNamespaces = [NS_COMMON, NS_BLOGS];
 
 export function generateStaticParams() {
-  return i18nConfig.locales.map(locale => ({ locale }));
+  return i18nConfig.locales.map(locale => {
+    return blogList.map(blogName => ({ locale, blogName }))
+  });
 }
 
-export default async function Blogs({ params: { locale } }) {
+export default async function BlogDetail({ params: { locale, blogName } }) {
   const {resources} = await initTranslations(locale, i18nNamespaces);
+  const markdown = await import(`@/markdowns/${blogName}-${locale}.md`);
 
   return (
     <TranslationsProvider
@@ -22,11 +25,9 @@ export default async function Blogs({ params: { locale } }) {
       resources={resources}>
       <main className="min-h-screen pt-32 flex flex-col">
         <Header/>
-        
-        <div className="flex-1 p-6 lg:py-32 lg:px-[15%]">
-          {blogData.map(({key, thumbnail, url}) => (
-            <BlogCard key={key} localeKey={key} thumbnail={thumbnail} url={url} />
-          ))}
+
+        <div className="prose max-w-full flex-1 p-6 lg:py-32 lg:px-[15%]">
+          <MDXRemote source={markdown.default} />
         </div>
 
         <Footer />
