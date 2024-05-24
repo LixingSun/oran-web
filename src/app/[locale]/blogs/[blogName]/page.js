@@ -9,9 +9,13 @@ import { MDXRemote } from 'next-mdx-remote/rsc';
 const i18nNamespaces = [NS_COMMON, NS_BLOGS];
 
 export function generateStaticParams() {
-  return i18nConfig.locales.map(locale => {
-    return blogList.map(blogName => ({ locale, blogName }))
+  const params = [];
+
+  i18nConfig.locales.forEach(locale => {
+    blogList.forEach(blogName => params.push({ locale, blogName }))
   });
+
+  return params;
 }
 
 export default async function BlogDetail({ params: { locale, blogName } }) {
