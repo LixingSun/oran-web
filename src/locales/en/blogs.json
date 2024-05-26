@@ -2,5 +2,9 @@
   "c4architectureModel": {
     "title": "C4 Architecture Model",
     "summary": "The C4 architecture model is an excellent framework for visualizing software system architectures, regardless of their complexity. It is easy to adopt and valuable for both technical and non-technical stakeholders. By breaking down the system into four hierarchical levels of detail—Context, Container, Component, and Code—the C4 model ensures that everyone maintains a clear and comprehensive understanding of the entire system."
+  },
+  "pathToProductionMapping": {
+    "title": "Path to Production Mapping",
+    "summary": "Path to production mapping is a structured approach used to visualize and understand the journey of a product from a developer's workstation to production. It significantly helps streamline processes, identify bottlenecks, and enhance cross-team collaboration. This approach aims to make the release process more efficient, reliable, and predictable, thereby improving the overall delivery of software products."
   }
 }
