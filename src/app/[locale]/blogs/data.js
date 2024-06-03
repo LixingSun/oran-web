@@ -1,5 +1,10 @@
 const blogData = [
   {
+    key: "frontendRoadmap",
+    url: "frontend-roadmap",
+    thumbnail: "frontend_roadmap_en_thumbnail.png"
+  },
+  {
     key: "c4architectureModel",
     url: "c4-architecture-model",
     thumbnail: "c4_architecture_model_thumbnail.png"

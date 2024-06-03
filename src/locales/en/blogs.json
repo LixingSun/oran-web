@@ -1,4 +1,8 @@
 {
+  "frontendRoadmap": {
+    "title": "Frontend Roadmap",
+    "summary": "Frontend development is well known for its rapid changes and continuous evolution. Based on my experience and extensive research, I have created this frontend roadmap. It is designed to benefit both newcomers and seasoned developers looking to fill gaps in their knowledge and improve their expertise."
+  },
   "c4architectureModel": {
     "title": "C4 Architecture Model",
     "summary": "The C4 architecture model is an excellent framework for visualizing software system architectures, regardless of their complexity. It is easy to adopt and valuable for both technical and non-technical stakeholders. By breaking down the system into four hierarchical levels of detail—Context, Container, Component, and Code—the C4 model ensures that everyone maintains a clear and comprehensive understanding of the entire system."
