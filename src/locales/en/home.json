@@ -32,12 +32,16 @@
         "name": "Thoughtworks",
         "titles": "Senior Consultant / Senior UI Dev / Tech Lead",
         "period": "2018 - 2023",
-        "region": "Asia",
-        "summary": "Successfully delivered several cross-region projects using Agile methodologies, ensuring high quality and receiving positive feedback from clients. Served as the lead role in the delivery team, contributing to both technical and business aspects in collaboration with clients. Additionally, I was a key member of the department core team and the office frontend community core team.",
+        "region": "China,Singapore",
+        "summary": "Successfully delivered several cross-region projects using Agile methodologies, ensuring high quality and receiving positive feedback from clients. Served as the lead role in the delivery team, contributing to both technical and business aspects in collaboration with clients. Additionally, I was a key member of the department core team and the office frontend community core team, working on multiple aspects such as training, interview and delivery ensurance.",
         "tags": [
           "Agile",
           "React",
           "Angular",
+          "Redux",
+          "TailwindCSS",
+          "React Testing Library",
+          "Node.js",
           "Kotlin",
           "PostgreSQL",
           "AWS",
@@ -52,9 +56,11 @@
             "period": "Sep 2022 - Jan 2023",
             "tags": [
               "React",
-              "tailwindcss",
+              "TailwindCSS",
+              "Redux",
+              "React Testing Library",
               "microfrontend",
-              "microservice",
+              "Webpack",
               "Java",
               "Jira",
               "Confluence",
@@ -63,9 +69,8 @@
             ],
             "summary": [
               "Led an Agile team taking charge of an essential new business module in the Web platform, which under a microfrontend & microservice architecture",
-              "Achieved multiple releases through collaboration with several internal teams",
-              "Promoted several improvement on tech stack and Agile way of working",
-              "Established strong and reliable relationship with the new client"
+              "Achieved multiple releases through collaboration with several internal teams, and established strong and reliable relationship with the new clients",
+              "Promoted several improvement on tech stack and Agile way of working"
             ]
           },
           {
@@ -92,7 +97,9 @@
             "tags": [
               "React",
               "Nest.js",
+              "Redux",
               "Typescript",
+              "React Testing Library",
               "microservice",
               "PostgreSQL",
               "Jira",
@@ -104,7 +111,7 @@
             "summary": [
               "Led team to provide quick response for urgent business requirement during COVID, and won national prize",
               "Evolved micro-service architecture under the program",
-              "Led team on development with Agile Engineering Practices, and keep improving team way of working",
+              "Led team on development of Agile Engineering Practices and way of working",
               "Enhanced the existing system on various dimensions (e.g. security, quality, etc.)",
               "Act as the anchor of the team with client higher management and other parties",
               "Led team on infrastructure and CI/CD on Azure Cloud"
@@ -118,7 +125,10 @@
             "tags": [
               "React",
               "Angular",
+              "Redux",
               "Styleguidist",
+              "React Testing Library",
+              "Jasmine",
               "PostgreSQL",
               "Kotlin",
               "Jira",
@@ -142,13 +152,15 @@
             "period": "Dec 2018 – Jun 2019",
             "tags": [
               "React",
+              "Redux",
+              "Enzyme",
+              "StoryBook",
               "Jira",
               "Confluence",
               "Bitbucket"
             ],
             "summary": [
-              "Took charge of form related UI features with React",
-              "Took charge of integration features including cross-team communication and related knowledge sharing",
+              "Implement form related UI features with React, and took charge of integration features including cross-team communication and related knowledge sharing",
               "Helped BAs and QAs in team on analysis and testing of complex features"
             ]
           }
@@ -162,12 +174,15 @@
         "summary": "Contributed as a core developer since the startup of this esports data service company. Independently managed the development of various web applications and collaborated with product managers on the evolution of multiple products.",
         "tags": [
           "Vue",
+          "Vuex",
           "D3.js",
           "echarts",
           "Node.js",
-          "socket.io",
+          "websocket",
           "iView",
           "Material Design",
+          "i18n",
+          "CMS",
           "Polymer"
         ]
       }

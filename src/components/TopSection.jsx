@@ -13,7 +13,7 @@ export default function TopSection() {
       <div className="flex flex-col lg:w-1/2">
         <div className="text-3xl">{t("topSection.title")}</div>
         <div className="text-2xl mt-4">{t("topSection.subtitle")}</div>
-        <div className="text-base lg:text-lg mt-4">{t("topSection.paragraph")}</div>
+        <div className="text-base lg:text-lg mt-4 whitespace-pre-line">{t("topSection.paragraph")}</div>
         <div className="flex-1" />
         <div className="flex items-center mt-8">
           <div className="text-sm lg:text-base mr-4">{t("topSection.resume")}</div>
