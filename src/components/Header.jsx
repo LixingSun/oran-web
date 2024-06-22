@@ -33,11 +33,12 @@ export default function Header() {
       <div className="flex flex-1 text-lg ml-4 lg:ml-12">
         <Link className={`${isActiveTab("about") ? "text-white" : "text-grey"} hover:text-white transition mx-2`} href={`/${locale}`}>{t("about")}</Link>
         <Link className={`${isActiveTab("blogs") ? "text-white" : "text-grey"} hover:text-white transition mx-2`} href={`/${locale}/blogs`}>{t("blogs")}</Link>
+        <Link className={`${isActiveTab("demo") ? "text-white" : "text-grey"} hover:text-white transition mx-2`} href={`/${locale}/demo`}>{t("demo")}</Link>
       </div>
 
       <div className="toolbar flex items-center">
         <a 
-          className="mx-2 lg:mx-4" 
+          className="hidden sm:mx-4 sm:block" 
           href="mailto:slxtrjh325@gmail.com">
           <Image
             src="/icons/email.svg"
@@ -48,7 +49,7 @@ export default function Header() {
           />
         </a>
         <a 
-          className="mx-2 lg:mx-4"
+          className="hidden sm:mx-4 sm:block"
           href="https://github.com/LixingSun/" 
           target="_blank">
           <Image

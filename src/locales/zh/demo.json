@@ -1,0 +1,6 @@
+{
+  "formBuilderDemo": {
+    "title": "Form Builder Demo",
+    "summary": "这是一个使用React和Vite技术栈打造的表单编辑器Demo。该应用提供了一站式的表单编辑体验，包括表单文字的快速修改、各类表单元素的灵活添加与修改，以及实时预览功能，让用户能轻松构建和定制所需的表单。"
+  }
+}
