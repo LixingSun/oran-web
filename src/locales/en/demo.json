@@ -1,6 +1,7 @@
 {
   "formBuilderDemo": {
     "title": "Form Builder Demo",
-    "summary": "This demo is built with React and Vite. It offers a one-stop form editing experience, including quick text modifications, flexible addition and modification of various form elements, and real-time preview functionality, allowing users to easily create and customize the forms they need."
+    "summary": "This demo is built with React and Vite. It offers a one-stop form editing experience, including quick text modifications, flexible addition and modification of various form elements, and real-time preview functionality, allowing users to easily create and customize the forms they need.",
+    "tags": ["React", "Vite", "TypeScript", "React Testing Library", "MUI"]
   }
 }

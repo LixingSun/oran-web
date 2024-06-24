@@ -4,6 +4,7 @@ import Image from "next/image";
 import { useTranslation } from 'react-i18next';
 import { NS_DEMO } from "@/i18n.config";
 import { CDN_HOST } from "@/config";
+import Tag from "./Tag";
 
 export default function DemoCard({
   thumbnail, localeKey, url
@@ -27,6 +28,9 @@ export default function DemoCard({
       <div className="lg:w-2/3">
         <div className="text-lg font-bold text-main mb-4">{localizedContent.title}</div>
         <div className="text-base">{localizedContent.summary}</div>
+        <div className="flex flex-wrap mt-4">
+          { localizedContent.tags.map(tag => <Tag text={tag} key={tag} />) }
+        </div>
       </div>
     </a>
   );
