@@ -3,5 +3,10 @@
     "title": "Form Builder Demo",
     "summary": "这是一个使用React和Vite技术栈打造的表单编辑器Demo。该应用提供了一站式的表单编辑体验，包括表单文字的快速修改、各类表单元素的灵活添加与修改，以及实时预览功能，让用户能轻松构建和定制所需的表单。",
     "tags": ["React", "Vite", "TypeScript", "React Testing Library", "MUI"]
+  },
+  "dota2MatchVisualzier": {
+    "title": "Dota2 Match Visualzier",
+    "summary": "这是一个使用React和Vite技术栈打造的Demo，旨在可视化热门游戏Dota2的比赛数据。该应用使用了如线形图、热点图在内的多种可视化类型，以达到直观且具有互动性地展示数据。",
+    "tags": ["React", "Vite", "TypeScript", "Antd", "ECharts", "heatmap"]
   }
 }

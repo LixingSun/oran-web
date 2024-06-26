@@ -3,5 +3,10 @@
     "title": "Form Builder Demo",
     "summary": "This demo is built with React and Vite. It offers a one-stop form editing experience, including quick text modifications, flexible addition and modification of various form elements, and real-time preview functionality, allowing users to easily create and customize the forms they need.",
     "tags": ["React", "Vite", "TypeScript", "React Testing Library", "MUI"]
+  },
+  "dota2MatchVisualzier": {
+    "title": "Dota2 Match Visualzier",
+    "summary": "This demo is built with React and Vite. It aims at visualizing match data from the popular e-sports game Dota 2. It utilizes various visualization techniques, such as line charts, area charts, and heatmaps, to present the data in an insightful and interactive manner.",
+    "tags": ["React", "Vite", "TypeScript", "Antd", "ECharts", "heatmap"]
   }
 }
