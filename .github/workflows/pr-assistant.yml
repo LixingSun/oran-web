@@ -19,6 +19,8 @@ jobs:
       # Fetch the list of changed files
       - name: Get changed files
         id: changed_files
+        run: |
+
           # Fetch the list of changed files along with patches (diffs)
           RESPONSE=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
             "https://api.github.com/repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }}/files")
