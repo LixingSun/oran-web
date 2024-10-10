@@ -29,6 +29,14 @@
     "confidentialNote": "*由于保密协议的缘故，下列项目无法提供在线演示及更多细节",
     "companies": [
       {
+        "name": "SAP",
+        "titles": "Developer",
+        "period": "2024 - now",
+        "region": "中国",
+        "summary": "",
+        "tags": []
+      },
+      {
         "name": "Thoughtworks",
         "titles": "高级咨询师 / 高级前端开发 / Tech Lead",
         "period": "2018 - 2023",

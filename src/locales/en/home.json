@@ -29,6 +29,14 @@
     "confidentialNote": "*Due to the confidentiality agreement, no demonstrations are available.",
     "companies": [
       {
+        "name": "SAP",
+        "titles": "Developer",
+        "period": "2024 - now",
+        "region": "China",
+        "summary": "",
+        "tags": []
+      },
+      {
         "name": "Thoughtworks",
         "titles": "Senior Consultant / Senior UI Dev / Tech Lead",
         "period": "2018 - 2023",
