@@ -1,0 +1,42 @@
+name: PR Assistant
+
+on:
+  pull_request:
+    types: [opened]
+
+jobs:
+  api-trigger:
+    runs-on: ubuntu-latest
+    steps:
+      # Checkout the code
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # Fetch the list of changed files
+      - name: Get changed files
+        id: changed_files
+        run: |
+          CHANGED_FILES=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            "https://api.github.com/repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }}/files" \
+            | jq -r '.[].filename' | tr '\n' ',' | sed 's/,$//')
+          echo "::set-output name=files::$CHANGED_FILES"
+
+      # Make a request to the external API including changed files
+      # - name: Call external API with changed files
+      #   id: call_api
+      #   run: |
+      #     RESPONSE=$(curl -s -X POST "https://api.example.com/your-endpoint" \
+      #       -H "Content-Type: application/json" \
+      #       -d "{\"changed_files\":\"${{ steps.changed_files.outputs.files }}\"}")
+      #     echo "::set-output name=response::$RESPONSE"
+
+      # Create a comment on the pull request with the API response
+      - name: Add comment to PR
+        uses: peter-evans/create-or-update-comment@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          issue-number: ${{ github.event.pull_request.number }}
+          body: |
+            # API Response: ${{ steps.call_api.outputs.response }}
+            # Temp comment placeholder
+            Changed Files: ${{ steps.changed_files.outputs.files }}
