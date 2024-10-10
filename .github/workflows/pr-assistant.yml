@@ -32,11 +32,12 @@ jobs:
 
       # Create a comment on the pull request with the API response
       - name: Add comment to PR
-        uses: peter-evans/create-or-update-comment@v2
+        uses: actions/github-script@v7
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          issue-number: ${{ github.event.pull_request.number }}
-          body: |
-            # API Response: ${{ steps.call_api.outputs.response }}
-            # Temp comment placeholder
-            Changed Files: ${{ steps.changed_files.outputs.files }}
+          script: |
+            github.rest.issues.createComment({
+              issue_number: context.payload.pull_request.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: '${{ steps.call_api.outputs.response }}'
+            })
