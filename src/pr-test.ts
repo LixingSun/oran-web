@@ -1,9 +1,9 @@
-export const isPositive = (input: number) => {
+export const isLargrThanStandad = (input: number) => {
     let result: boolean;
     
-    if (input > 0) {
+    if (input > 25) {
         result = true
-    } else {
+    } else if (input < 25) {
         result = false
     }
 
