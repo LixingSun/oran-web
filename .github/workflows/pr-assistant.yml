@@ -22,8 +22,8 @@ jobs:
         run: |
           CHANGED_FILES=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
             "https://api.github.com/repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }}/files" \
-            | jq -r '.[].filename' | tr '\n' ',' | sed 's/,$//')
-          echo "::set-output name=files::$CHANGED_FILES"
+            | jq -r '[.[] | {filename: .filename, patch: .patch}]')
+          echo "::set-output name=diffs::$CHANGED_FILES"
 
       # Make a request to the external API including changed files
       # - name: Call external API with changed files
@@ -44,5 +44,5 @@ jobs:
               issue_number: context.payload.pull_request.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
-              body: 'Placeholder Comment with changed files: ${{ steps.changed_files.outputs.files }}'
+              body: 'Placeholder Comment: ${{ steps.changed_files.outputs.diffs }}'
             })
