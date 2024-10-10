@@ -19,10 +19,15 @@ jobs:
       # Fetch the list of changed files
       - name: Get changed files
         id: changed_files
-        run: |
-          CHANGED_FILES=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
-            "https://api.github.com/repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }}/files" \
-            | jq -r '[.[] | {filename: .filename, patch: .patch}]')
+          # Fetch the list of changed files along with patches (diffs)
+          RESPONSE=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+            "https://api.github.com/repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }}/files")
+
+          # Check for truncated diffs and log the patches
+          CHANGED_FILES=$(echo "$RESPONSE" | jq -r '[.[] | {filename: .filename, patch: (.patch // "Patch is too large or missing")} ]')
+
+          # Output the changed files and patches for further steps
+          echo "Changed files with patches: $CHANGED_FILES"
           echo "::set-output name=diffs::$CHANGED_FILES"
 
       # Make a request to the external API including changed files
