@@ -9,3 +9,16 @@ export const isLargrThanStandad = (input: number) => {
 
     return result;
 }
+
+export const skippedFunction = (input: string) => input.toUpperCase();
+
+export const arrayMapping = (arr: number[]) => {
+    const result = [];
+
+    arr.forEach(item => {
+        result.push(item);
+    });
+
+    return result;
+}
+
